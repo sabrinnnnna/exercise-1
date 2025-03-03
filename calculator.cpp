@@ -29,11 +29,11 @@ int main() {
     double num1, num2;
     char operation;
 
-    cout << "Welcome to the Calculator App!" << endl;
-    cout << "Enter two numbers: ";
+    cout << "Selamat datang di aplikasi kalkulator sederhana!" << endl;
+    cout << "Input dua angka: ";
     cin >> num1 >> num2;
 
-    cout << "Choose operation (+, -, *, /): ";
+    cout << "Pilih operasi perhitungan (+, -, *, /): ";
     cin >> operation;
 
     switch (operation) {
