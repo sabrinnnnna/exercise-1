@@ -38,16 +38,16 @@ int main() {
 
     switch (operation) {
         case '+':
-            cout << "Result: " << add(num1, num2) << endl;
+            cout << "Hasil: " << add(num1, num2) << endl;
             break;
         case '-':
-            cout << "Result: " << subtract(num1, num2) << endl;
+            cout << "Hasil: " << subtract(num1, num2) << endl;
             break;
         case '*':
-            cout << "Result: " << multiply(num1, num2) << endl;
+            cout << "Hasil: " << multiply(num1, num2) << endl;
             break;
         case '/':
-            cout << "Result: " << divide(num1, num2) << endl;
+            cout << "Hasil: " << divide(num1, num2) << endl;
             break;
         default:
             cout << "Invalid operation!" << endl;
