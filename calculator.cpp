@@ -1,5 +1,14 @@
 #include <iostream>
 using namespace std;
+#include <cmath> // Include cmath for pow() function
+
+// Function to calculate power
+double power(double x, double y) {
+    return pow(x, y);
+}
+
+// Update the main function to include the power operation
+
 
 // Function to add two numbers
 double add(double x, double y) {
@@ -49,6 +58,11 @@ int main() {
         case '/':
             cout << "Hasil: " << divide(num1, num2) << endl;
             break;
+
+        case '^':
+            cout << "Hasil: " << power(num1, num2) << endl;
+            break;
+
         default:
             cout << "Invalid operation!" << endl;
             break;
