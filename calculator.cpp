@@ -40,7 +40,7 @@ int main() {
     cout << "Input dua angka: ";
     cin >> num1 >> num2;
 
-    cout << "Pilih operasi perhitungan (+, -, *, /): ";
+    cout << "Pilih operasi perhitungan (+, -, *, /, ^): ";
     cin >> operation;
 
     switch (operation) {
